@@ -15,6 +15,7 @@ public class Main {
 		entityManager.close();
 		factory.close();
 		
+	
 //		EntityManager manager = factory.createEntityManager();
 //		
 //		manager.getTransaction().begin();

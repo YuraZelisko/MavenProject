@@ -3,7 +3,7 @@ package ua.com.antivirus.entity;
 import javax.persistence.Entity;
 
 @Entity
-public class Antivirus {
+public class HomeProduct {
 	
 	
 
