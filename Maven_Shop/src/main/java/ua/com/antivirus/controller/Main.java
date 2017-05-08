@@ -11,6 +11,9 @@ public class Main {
 				Persistence.createEntityManagerFactory("primary");
 		EntityManager entityManager = factory.createEntityManager();
 		entityManager.getTransaction().begin();
+		
+		
+		
 		entityManager.getTransaction().commit();
 		entityManager.close();
 		factory.close();
